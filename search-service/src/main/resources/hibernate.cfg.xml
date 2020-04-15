@@ -15,7 +15,7 @@
 		<!-- Assume test is the database name -->
 
 		<property name="hibernate.connection.url">
-			jdbc:mysql://localhost:3306/ordermyfood
+			jdbc:mysql://mydatabase.c6gzxwzjhm6k.us-east-2.rds.amazonaws.com:3306/orderdatabase
 		</property>
 
 		<property name="hibernate.connection.username">
@@ -23,7 +23,7 @@
 		</property>
 
 		<property name="hibernate.connection.password">
-			root@123
+			root#123
 		</property>
 		
 		<property name="hbm2ddl.auto">create</property>
