@@ -1,21 +1,14 @@
 package com.tastyfood.order.my.food.ordermanagementservice.controller;
 
-import java.util.concurrent.ExecutionException;
-
-import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.kafka.core.KafkaTemplate;
-import org.springframework.kafka.support.SendResult;
-import org.springframework.util.concurrent.ListenableFuture;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.google.gson.Gson;
 import com.tastyfood.order.my.food.ordermanagementservice.dao.FoodOrderDaoService;
 import com.tastyfood.order.my.food.ordermanagementservice.model.Foodorder;
 
